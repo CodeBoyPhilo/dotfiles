@@ -1,11 +1,14 @@
 # Ignore everything
 *
 
-# Unignore the .gitignore file itself
 !.gitignore
 
-# Unignore .config directory
 !.config/
 
-# Unignore .tmux.conf file
 !.tmux.conf
+
+!Brewfile
+
+!README.md
+
+!README-ZH.md
