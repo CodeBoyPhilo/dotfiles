@@ -4,31 +4,31 @@
 
 <table>
     <tr>
-        <th style="text-align: left;">shell</th>
+        <td>shell</td>
         <td>zsh</td>
         <td><em>coming soon...</em></td>
     </tr>
     <tr>
-        <th style="text-align: left;">shell color scheme</th>
+        <td> shell color scheme</td>
         <td>powerlevel10k</td>
         <td><em>coming soon...</em></td>
     </tr>
     <tr>
-        <th style="text-align: left;">terminal</th>
+        <td>terminal</td>
         <td>alacritty</td>
         <td>✅</td>
     </tr>
     <tr>
-        <th style="text-align: left;">editor</th>
+        <td>editor</td>
         <td>neovim</td>
         <td>✅</td>
     </tr>
     <tr>
-        <th style="text-align: left;">universal color scheme</th>
+        <td>universal color scheme</td>
         <td>catppuccin</td>
         <td>✅</td>
     </tr>
-    </table>
+</table>
 
 Some other useful tools:
 
