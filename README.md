@@ -32,13 +32,13 @@
 
 Some other useful tools:
 
-- [**tmux**](#https://github.com/tmux/tmux) for multi-session managements
-- [**yabai**](#https://github.com/koekeishiya/yabai) for window management
-- [**skhd**](#https://github.com/koekeishiya/skhd) for managing hotkeys
-- [**sketchybar**](#https://github.com/FelixKratz/SketchyBar) for customisable MacOS menu bar
-- [**borders(JankyBorders)**](#https://github.com/FelixKratz/JankyBorders) for enhanced visualisation of windows
-- [**btop**](#https://github.com/aristocratos/btop) for a view of the system info
-- [**fastfetch**](#https://github.com/fastfetch-cli/fastfetch) a nice alternative of `neofetch`
+- [**tmux**](https://github.com/tmux/tmux) for multi-session managements
+- [**yabai**](https://github.com/koekeishiya/yabai) for window management
+- [**skhd**](https://github.com/koekeishiya/skhd) for managing hotkeys
+- [**sketchybar**](https://github.com/FelixKratz/SketchyBar) for customisable MacOS menu bar
+- [**borders(JankyBorders)**](https://github.com/FelixKratz/JankyBorders) for enhanced visualisation of windows
+- [**btop**](https://github.com/aristocratos/btop) for a view of the system info
+- [**fastfetch**](https://github.com/fastfetch-cli/fastfetch) a nice alternative of `neofetch`
 
 ## Acknowledgements:
 
