@@ -44,7 +44,7 @@ Some other useful tools:
 
 My dotfiles are built on top of the following repo:
 
-- [josean-dev/dev-environment-files](#https://github.com/josean-dev/dev-environment-files)
-- [FelixKratz/dotfiles](#https://github.com/FelixKratz/dotfiles)
+- [josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
+- [FelixKratz/dotfiles](https://github.com/FelixKratz/dotfiles)
 
-I strongly recommend new users to follow the awesome setup guides created by [Josean](#https://youtube.com/playlist?list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07).
+I strongly recommend new users to follow the awesome setup guides created by [Josean](https://youtube.com/playlist?list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07).
