@@ -1,0 +1,3 @@
+return {
+	"majutsushi/tagbar",
+}
