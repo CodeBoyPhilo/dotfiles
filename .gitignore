@@ -1,9 +1,9 @@
 # Ignore everything
 *
 
-.config/fish
+.config/fish/
 
-.config/kitty
+.config/kitty/
 
 !.gitignore
 
