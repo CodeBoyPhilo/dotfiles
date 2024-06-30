@@ -1,6 +1,10 @@
 # Ignore everything
 *
 
+.config/fish
+
+.config/kitty
+
 !.gitignore
 
 !.config/
