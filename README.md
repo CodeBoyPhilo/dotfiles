@@ -4,27 +4,27 @@
 
 <table>
     <tr>
-        <td>shell</td>
+        <td><strong>shell</strong></td>
         <td>zsh</td>
         <td><em>coming soon...</em></td>
     </tr>
     <tr>
-        <td> shell color scheme</td>
+        <td><strong>shell color scheme</strong></td>
         <td>powerlevel10k</td>
         <td><em>coming soon...</em></td>
     </tr>
     <tr>
-        <td>terminal</td>
+        <td><strong>terminal</strong></td>
         <td>alacritty</td>
         <td>✅</td>
     </tr>
     <tr>
-        <td>editor</td>
+        <td><strong>editor</strong></td>
         <td>neovim</td>
         <td>✅</td>
     </tr>
     <tr>
-        <td>universal color scheme</td>
+        <td><strong>universal color scheme</strong></td>
         <td>catppuccin</td>
         <td>✅</td>
     </tr>
