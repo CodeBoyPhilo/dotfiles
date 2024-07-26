@@ -12,7 +12,7 @@ return {
 				light = "latte",
 				dark = "macchiato",
 			},
-			transparent_background = false,
+			transparent_background = true,
 			compile = {
 				enabled = true,
 				path = vim.fn.stdpath("cache") .. "/catppuccin",
