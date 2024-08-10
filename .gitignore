@@ -3,7 +3,7 @@
 
 !.gitignore
 
-!.config/
+!.config/*
 
 !.tmux.conf
 
