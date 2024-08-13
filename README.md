@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td><strong>terminal</strong></td>
-        <td>alacritty</td>
+        <td>wezterm</td>
         <td>✅</td>
     </tr>
     <tr>
@@ -33,8 +33,7 @@
 Some other useful tools:
 
 - [**tmux**](https://github.com/tmux/tmux) for multi-session managements
-- [**yabai**](https://github.com/koekeishiya/yabai) for window management
-- [**skhd**](https://github.com/koekeishiya/skhd) for managing hotkeys
+- [**aerospace**](https://github.com/nikitabobko/AeroSpace) for window management
 - [**sketchybar**](https://github.com/FelixKratz/SketchyBar) for customisable MacOS menu bar
 - [**borders(JankyBorders)**](https://github.com/FelixKratz/JankyBorders) for enhanced visualisation of windows
 - [**btop**](https://github.com/aristocratos/btop) for a view of the system info
