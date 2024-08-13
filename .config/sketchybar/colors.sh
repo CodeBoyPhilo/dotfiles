@@ -23,3 +23,10 @@ export POPUP_BACKGROUND_COLOR=0xff24273a
 export POPUP_BORDER_COLOR=$WHITE
 
 export SHADOW_COLOR=$BLACK
+
+export BATTERY_1=0xffa6da95
+export BATTERY_2=0xffeed49f
+export BATTERY_3=0xfff5a97f
+export BATTERY_4=0xffee99a0
+export BATTERY_5=0xffed8796
+
