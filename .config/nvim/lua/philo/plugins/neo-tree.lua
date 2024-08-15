@@ -1,0 +1,110 @@
+return {
+	"nvim-neo-tree/neo-tree.nvim",
+	branch = "main",
+	dependencies = {
+		"nvim-lua/plenary.nvim",
+		"nvim-tree/nvim-web-devicons",
+		"MunifTanjim/nui.nvim",
+	},
+	enable = false,
+	-- 	opts = {
+	-- 		source_selector = {
+	-- 			winbar = true,
+	-- 			content_layout = "center",
+	-- 			sources = {
+	-- 				{ source = "filesystem", display_name = "Files" },
+	-- 				-- { source = "buffers", display_name = "Buff" },
+	-- 				-- { source = "git_status", display_name = "Git" },
+	-- 				-- { source = "diagnostics", display_name = "Diagn" },
+	-- 			},
+	-- 		},
+	-- 		filesystem = {
+	-- 			filtered_items = {
+	-- 				visible = false,
+	-- 				hide_dotfiles = false,
+	-- 				hide_gitignored = true,
+	-- 				hide_hidden = true,
+	-- 				hide_by_name = {
+	-- 					".DS_Store",
+	-- 				},
+	-- 				hide_by_pattern = {},
+	-- 				always_show = {},
+	-- 				never_show = {},
+	-- 				never_show_by_pattern = {},
+	-- 			},
+	-- 		},
+	-- 		icon = {
+	-- 			folder_closed = "",
+	-- 			folder_open = "",
+	-- 			folder_empty = "󰜌",
+	-- 			-- The next two settings are only a fallback, if you use nvim-web-devicons and configure default icons there
+	-- 			-- then these will never be used.
+	-- 			default = "*",
+	-- 			highlight = "NeoTreeFileIcon",
+	-- 		},
+	-- 		window = {
+	-- 			position = "left",
+	-- 			width = 40,
+	-- 			mapping_options = {
+	-- 				noremap = true,
+	-- 				nowait = true,
+	-- 			},
+	-- 			mappings = {
+	-- 				["<2-LeftMouse>"] = "open",
+	-- 				["<cr>"] = "open",
+	-- 				["<esc>"] = "revert_preview",
+	-- 				["P"] = { "toggle_preview", config = { use_float = true } },
+	-- 				["S"] = "open_split",
+	-- 				["s"] = "open_vsplit",
+	-- 				["w"] = "open_with_window_picker",
+	-- 				["C"] = "close_node",
+	-- 				["z"] = "close_all_nodes",
+	-- 				["Z"] = "expand_all_nodes",
+	-- 				["a"] = {
+	-- 					"add",
+	-- 					config = {
+	-- 						show_path = "none",
+	-- 					},
+	-- 				},
+	-- 				["A"] = "add_directory",
+	-- 				["d"] = "delete",
+	-- 				["r"] = "rename",
+	-- 				["y"] = "copy_to_clipboard",
+	-- 				["x"] = "cut_to_clipboard",
+	-- 				["p"] = "paste_from_clipboard",
+	-- 				["c"] = "copy",
+	-- 				["m"] = "move",
+	-- 				["q"] = "close_window",
+	-- 				["R"] = "refresh",
+	-- 				["?"] = "show_help",
+	-- 				["<"] = "prev_source",
+	-- 				[">"] = "next_source",
+	--
+	-- 				-- Custom mappings
+	-- 				uu = {
+	-- 					function(state)
+	-- 						vim.cmd("TransferUpload " .. state.tree:get_node().path)
+	-- 					end,
+	-- 					desc = "upload file or directory",
+	-- 					nowait = true,
+	-- 				},
+	-- 				ud = {
+	-- 					function(state)
+	-- 						vim.cmd("TransferDownload " .. state.tree:get_node().path)
+	-- 					end,
+	-- 					desc = "download file or directory",
+	-- 					nowait = true,
+	-- 				},
+	-- 				uf = {
+	-- 					function(state)
+	-- 						vim.cmd("TransferDirDiff " .. context_dir(state))
+	-- 						vim.cmd("Neotree close")
+	-- 					end,
+	-- 					desc = "diff with remote",
+	-- 				},
+	-- 			},
+	-- 		},
+	-- 	},
+	-- 	lazy = true,
+	-- 	cmd = "Neotree",
+}
