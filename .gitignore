@@ -1,16 +1,17 @@
 # Ignore everything
 *
 
+# Do not ignore these files
 !.gitignore
-
-!.config/*
-
+!.config/
+!.config/**/*
 !.tmux.conf
-
+!.wezterm.lua
 !Brewfile
-
 !README.md
-
 !README-ZH.md
+
+# Specifically ignore some files or folders under .config
 .config/clash
-.config/clash
+.config/spicetify
+.config/github-copilot
