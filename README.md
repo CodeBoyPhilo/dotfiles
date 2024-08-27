@@ -9,23 +9,18 @@
         <td><em>coming soon...</em></td>
     </tr>
     <tr>
-        <td><strong>shell color scheme</strong></td>
-        <td>powerlevel10k</td>
-        <td><em>coming soon...</em></td>
+        <td><strong>shell prompt</strong></td>
+        <td>starship</td>
+        <td><em>✅</em></td>
     </tr>
     <tr>
-        <td><strong>terminal</strong></td>
+        <td><strong>terminal emulator</strong></td>
         <td>wezterm</td>
         <td>✅</td>
     </tr>
     <tr>
         <td><strong>editor</strong></td>
         <td>neovim</td>
-        <td>✅</td>
-    </tr>
-    <tr>
-        <td><strong>universal color scheme</strong></td>
-        <td>catppuccin</td>
         <td>✅</td>
     </tr>
 </table>
