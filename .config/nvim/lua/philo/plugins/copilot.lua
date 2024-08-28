@@ -30,7 +30,7 @@ return {
 					accept_line = "<M-C-]>",
 					next = "<M-]>",
 					prev = "<M-[>",
-					dismiss = "<C-[>",
+					dismiss = "<Esc>",
 				},
 			},
 			filetypes = {
