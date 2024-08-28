@@ -16,5 +16,11 @@ return {
 			{ "<leader>ur", "<cmd>TransferRepeat<cr>", desc = "Repeat transfer command", icon = "󰑖" },
 			{ "<leader>uu", "<cmd>TransferUpload<cr>", desc = "Upload to remote server (scp)", icon = "󰕒" },
 		})
+
+		wk.add({
+			{ "<leader>p", group = "TagBar" },
+			{ "<leader>pp", "<cmd>TagbarToggle<cr>", desc = "Toggle TagBar"},
+		})
 	end,
 }
+
