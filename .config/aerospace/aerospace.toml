@@ -74,6 +74,18 @@ outer.right =      10
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
+
+[workspace-to-monitor-force-assignment]
+1 = 1
+2 = 'main'
+3 = 'secondary'
+# 1 = 1                            # Monitor sequence number from left to right. 1-based indexing
+# 2 = 'main'                       # Main monitor
+# 3 = 'secondary'                  # Non-main monitor in case when there are only two monitors
+# 4 = 'built-in'                   # Case insensitive regex substring
+# 5 = '^built-in retina display$'  # Case insensitive regex match
+# 6 = ['secondary', 'dell']  
+
 [mode.main.binding]
 
 # All possible keys:
@@ -149,8 +161,8 @@ alt-y = 'workspace Y'
 alt-z = 'workspace Z'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-alt-shift-1 = ['move-node-to-workspace 1', 'workspace 1']
-alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
+alt-shift-1 = ['move-workspace-to-monitor prev']
+alt-shift-2 = ['move-workspace-to-monitor next']
 alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
 alt-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
 alt-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
@@ -207,4 +219,5 @@ alt-shift-l = ['join-with right', 'mode main']
 [[on-window-detected]]
 if.app-id = 'com.tencent.xinWeChat'
 run = 'layout floating'
+
 
