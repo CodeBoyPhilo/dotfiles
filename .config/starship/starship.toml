@@ -24,12 +24,12 @@ truncate_to_repo = false
 repo_root_format = '[ $repo_root]( $repo_root_style)[$path ]($repo_root_style)'
 
 [git_branch]
-style = 'bold fg:green'
+style = 'bold fg:text'
 symbol = ' '
 format = '[$symbol$branch ]($style)'
 
 [git_status]
-style = 'bold fg:yellow'
+style = 'bold fg:red'
 modified = 'M'
 deleted = 'D'
 format = '([$all_status$ahead_behind]($style) )'
@@ -52,12 +52,12 @@ format = '$symbol[${ram_pct}]($style) '
 
 
 [conda]
-style = 'lavender'
+style = 'blue'
 symbol = ' '
 format = '[$environment $symbol]($style)'
 
 [python]
-style = 'lavender'
+style = 'blue'
 symbol = ' '
 version_format = '${major}.${minor}'
 format = '[($virtualenv )${symbol}${pyenv_prefix}(${version} )]($style)'
