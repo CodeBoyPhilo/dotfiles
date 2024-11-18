@@ -24,6 +24,8 @@ return {
 				},
 				cmp = true,
 				leap = true,
+				gitsigns = true,
+				telescope = true,
 			},
 			custom_highlights = {
 				Comment = { fg = colors.surface2, style = { "italic" } }, -- just comments
