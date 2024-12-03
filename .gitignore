@@ -16,3 +16,4 @@
 .config/spicetify
 .config/github-copilot
 .config/Battle.net/Telemetry
+.config/.DS_Store
