@@ -19,8 +19,12 @@ return {
 
 		wk.add({
 			{ "<leader>p", group = "TagBar" },
-			{ "<leader>pp", "<cmd>TagbarToggle<cr>", desc = "Toggle TagBar"},
+			{ "<leader>pp", "<cmd>TagbarToggle<cr>", desc = "Toggle TagBar" },
+		})
+
+		wk.add({
+			{ "<leader>z", group = "Focus" },
+			{ "<leader>zz", "<cmd>Twilight<cr>", desc = "Toggle Twilight" },
 		})
 	end,
 }
-
