@@ -84,6 +84,11 @@ return {
 				BufferLineBufferVisible = { fg = colors.surface1, bg = "NONE" },
 				BufferLineBufferSelected = { fg = colors.text, bg = "NONE", style = { "bold", "italic" } }, -- current
 				BufferLineIndicatorSelected = { fg = colors.peach, bg = "NONE" },
+				DbFindFile = { fg = colors.teal, style = { "bold" } },
+				DbFindWord = { fg = colors.green, style = { "bold" } },
+				DbConfig = { fg = colors.yellow, style = { "bold" } },
+				DbQuit = { fg = colors.maroon, style = { "bold" } },
+				DbSeparator = { fg = colors.text, style = { "bold" } },
 			},
 		}
 
