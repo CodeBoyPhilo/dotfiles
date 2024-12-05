@@ -58,7 +58,7 @@ return {
 				},
 				{
 					section = "terminal",
-					cmd = "chafa ~/Desktop/philo/art.png -f symbols --size 40x80 --symbols sextant",
+					cmd = "chafa ~/Desktop/philo/landscape.png -f symbols --size 40x80 --symbols sextant",
 					enabled = vim.api.nvim_win_get_width(0) ~= 116,
 					height = 13,
 					width = 80,
