@@ -4,15 +4,12 @@ return {
 	lazy = false,
 	opts = {
 		bigfile = { enabled = true },
-		bufdelete = { enabled = false },
-		debug = { enabled = false },
 		lazygit = { enabled = true },
 		notify = { enabled = true },
 		notifier = {
 			enabled = true,
 			timeout = 3000,
 		},
-		rename = { enabled = true },
 		win = { enabled = true },
 		styles = {
 			notification = {
