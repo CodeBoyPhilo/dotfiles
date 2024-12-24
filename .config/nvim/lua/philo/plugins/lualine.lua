@@ -44,7 +44,7 @@ return {
 		lualine.setup({
 			options = {
 				theme = my_lualine_theme,
-				ignore_focus = { "NvimTree", "AvanteInput", "Avante" },
+				ignore_focus = { "NvimTree", "AvanteInput", "Avante", "tagbar" },
 			},
 			sections = {
 				lualine_c = { { "filename" } },
