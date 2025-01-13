@@ -42,3 +42,11 @@ My dotfiles are built on top of the following repo:
 - [FelixKratz/dotfiles](https://github.com/FelixKratz/dotfiles)
 
 I strongly recommend new users to follow the awesome setup guides created by [Josean](https://youtube.com/playlist?list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07).
+
+## Preview:
+
+**Dark Theme**:
+[!Dark Theme](assets/dark_theme.png)
+
+**Light Theme**:
+[!Light Theme](assets/light_theme.png)
