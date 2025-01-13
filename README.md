@@ -46,7 +46,7 @@ I strongly recommend new users to follow the awesome setup guides created by [Jo
 ## Preview:
 
 **Dark Theme**:
-[!Dark Theme](assets/dark_theme.png)
+![Dark Theme](assets/light_theme.png)
 
 **Light Theme**:
-[!Light Theme](assets/light_theme.png)
+![Light Theme](assets/dark_theme.png)
