@@ -13,19 +13,19 @@
 # export TRANSPARENT=0x00000000
 export BLACK=0xff181926
 export WHITE=0xffcad3f5
-export RED=0xffcad3f5
-export GREEN=0xffcad3f5
-export BLUE=0xffcad3f5
-export YELLOW=0xffcad3f5
-export ORANGE=0xffcad3f5
-export MAGENTA=0xff181926
-export GREY=0xff181926
+export RED=$WHITE
+export GREEN=$WHITE
+export BLUE=$WHITE
+export YELLOW=$WHITE
+export ORANGE=$WHITE
+export MAGENTA=$BLACK
+export GREY=$BLACK
 export TRANSPARENT=0x00000000
 
 # General bar colors
 export BAR_COLOR=0x00000000
-export ICON_COLOR=$WHITE # Color of all icons
-export LABEL_COLOR=$WHITE # Color of all labels
+export ICON_COLOR=$WHITE# Color of all icons
+export LABEL_COLOR=$WHITE# Color of all labels
 export BACKGROUND_1=0x903c3e4f
 export BACKGROUND_2=0x90494d64
 
