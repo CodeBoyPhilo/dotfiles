@@ -153,7 +153,7 @@ alt-q = 'workspace Q'
 alt-r = 'workspace R'
 alt-s = 'workspace S'
 alt-t = 'workspace T'
-alt-u = 'workspace U'
+# alt-u = 'workspace U'
 alt-v = 'workspace V'
 alt-w = 'workspace W'
 alt-x = 'workspace X'
@@ -186,7 +186,7 @@ alt-shift-q = ['move-node-to-workspace Q', 'workspace Q']
 alt-shift-r = ['move-node-to-workspace R', 'workspace R']
 alt-shift-s = ['move-node-to-workspace S', 'workspace S']
 alt-shift-t = ['move-node-to-workspace T', 'workspace T']
-alt-shift-u = ['move-node-to-workspace U', 'workspace U']
+# alt-shift-u = ['move-node-to-workspace U', 'workspace U']
 alt-shift-v = ['move-node-to-workspace V', 'workspace V']
 alt-shift-w = ['move-node-to-workspace W', 'workspace W']
 alt-shift-x = ['move-node-to-workspace X', 'workspace X']
@@ -230,5 +230,9 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'unity.Blizzard Entertainment.Hearthstone'
 run = 'layout floating'
 
