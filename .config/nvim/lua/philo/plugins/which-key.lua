@@ -26,5 +26,9 @@ return {
 			{ "<leader>z", group = "Focus" },
 			{ "<leader>zz", "<cmd>Twilight<cr>", desc = "Toggle Twilight" },
 		})
+
+		wk.add({
+			{ "<leader>sc", ":Silicon<CR>", desc = "Snapshot Code", mode = "v", icon = "󰈙" },
+		})
 	end,
 }
