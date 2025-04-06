@@ -236,3 +236,7 @@ run = 'layout floating'
 if.app-id = 'unity.Blizzard Entertainment.Hearthstone'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.ScreenContinuity'
+run = 'layout floating'
+
