@@ -4,8 +4,15 @@ local config = {}
 
 local act = wezterm.action
 
-config.font = wezterm.font("Liga SFMono Nerd Font", { weight = "Bold" })
-config.font_size = 23
+-- config.font = wezterm.font("Fira Code")
+-- config.font = wezterm.font_with_fallback({
+-- 	{ family = "Fira Code" }, -- Primary font
+-- 	{ family = "Heiti SC", weight = "Medium" }, -- Fallback font with scaling
+-- })
+config.font = wezterm.font_with_fallback({
+	{ family = "Maple Mono NF CN" }, -- Primary font
+})
+config.font_size = 19
 config.color_scheme = "Catppuccin Mocha"
 
 config.enable_tab_bar = false
