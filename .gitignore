@@ -18,3 +18,5 @@
 .config/Battle.net/Telemetry
 .config/.DS_Store
 .config/raycast/extensions
+.config/raycast
+.config/silicon/themes
