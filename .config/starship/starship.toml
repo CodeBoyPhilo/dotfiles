@@ -4,6 +4,7 @@ $git_branch\
 $git_status\
 $cmd_duration\
 $fill\
+$os\
 $memory_usage\
 $conda\
 $python\
@@ -12,7 +13,7 @@ $character"""
 
 add_newline = true
 
-palette = "catppuccin_mocha"
+# palette = "catppuccin_mocha"
 
 [directory]
 style = 'bold fg:green'
@@ -42,6 +43,9 @@ show_notifications = true
 
 [fill]
 symbol = ' '
+
+[os]
+disabled = false
 
 [memory_usage]
 disabled = false
