@@ -1,5 +1,12 @@
 # Phi's .(dot)files
 
+> [!WARNING]  
+> This repo is deprecated. I have migrated my dotfiles (at least the most frequently used ones or the available ones) to Nix Home-Manager.
+> Check out the updates here 👉: [nix-home-manager-macos](https://github.com/CodeBoyPhilo/Nix-Home-Manager-macOS)
+
+> [!NOTE]
+> Configs not yet migrated: **Wezterm**, **AeroSpace**, **SketchyBar**, **JankyBorders**, **btop**
+
 ## What do I use:
 
 <table>
