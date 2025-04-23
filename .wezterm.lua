@@ -13,13 +13,14 @@ config.font = wezterm.font_with_fallback({
 	{ family = "Maple Mono NF CN" }, -- Primary font
 })
 config.font_size = 19
-config.color_scheme = "Catppuccin Mocha"
+-- config.color_scheme = "Catppuccin Mocha"
+config.color_scheme = "tokyonight_night"
 
 config.enable_tab_bar = false
 -- config.window_background_opacity = 0
 -- config.macos_window_background_blur = 0
 
-config.window_background_image = "/Users/phil_oh/wezterm_bg_image_dark.png"
+-- config.window_background_image = "/Users/phil_oh/wezterm_bg_image_dark.png"
 
 config.window_decorations = "RESIZE"
 config.mouse_bindings = {
